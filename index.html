@@ -5,7 +5,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
@@ -17,8 +16,8 @@
 <header class="navbar">
     <nav class="navbar-links">
         <a href="./index.html#top">ABOUT</a>
-        <a href="./index.html#games">GAMES</a>
-        <a href="./index.html#work-experience">EXPERIENCE</a>
+        <a href="./index.html#projects">PROJECTS</a>
+        <a href="./index.html#work-experience">RESUME</a>
     </nav>
     <div class="underline"></div>
 </header>
@@ -55,8 +54,8 @@
         </div>
         </div>
 
-        <section id="games" class="navbar-pad">
-        <h2 class="section-title">Games</h2>
+        <section id="projects" class="navbar-pad">
+        <h2 class="section-title">Projects</h2>
 
         <div id="underwatertale">
             <div class="card-header">
@@ -64,7 +63,7 @@
                     <img src="public/uwt_icon.png" alt="">
                     <h3>Underwatertale</h3>
                 </div>
-                <p>Tools Programmer / Team Lead</p>
+                <p>Tools Programming / Team Lead</p>
             </div>
             <div class="game-info card">
                 <div class="game-description">
@@ -91,7 +90,7 @@
                     <img class="project-icon" src="public/ns_icon.png" alt="">
                     <h3>Never Sleep</h3>
                 </div>
-                <p>Network Programmer</p>
+                <p>Network / Gameplay Programming</p>
             </div>
             <div class="game-info card">
                 <div class="game-description">
@@ -112,8 +111,39 @@
         </div>
         </section>
 
+        <div id="car">
+            <div class="card-header">
+                <div class="icon-header">
+                    <h3>C++ Ascii Renderer</h3>
+                </div>
+                <p>Graphics Programming</p>
+            </div>
+            <div class="game-info card">
+                <div class="game-description">
+                    <p>
+                        Built a graphics pipeline with a simple software rasterizer 
+                        in C++ that renders simple 3d models to the terminal and allows
+                        the user to apply transformations to them.
+                    </p>
+                    <p>
+                        The pipeline uses Z-buffering to solve depth-fighting and barycentric
+                        interpolation to interpolate vertex data across fragments.
+                    </p>
+                    <p>
+                        Check out the repository <a style="font-size: 1em;" href="https://github.com/gavindg/car">here!</a>
+                    </p>
+                </div>
+                <img 
+                    src="./public/depth_rotation.gif" 
+                    class="game-screenshot" 
+                    alt="Screenshot of &quot;never sleep&quot;"
+                >
+            </div>
+        </div>
+        </section>
+
         <section id="work-experience" class="navbar-pad" style="margin-bottom: 48px;">
-        <h2 class="section-title">Experience</h2>
+        <h2 class="section-title">Resume</h2>
 
         <div id="leucadia">
             <div class="card-header">
@@ -148,6 +178,24 @@
                 interviews prospective team leaders and mentors.</li>
                 <li>Coordinates club-wide events such as project pitch, playtesting,
                     and showcase nights, as well as quarterly game jams.</li>
+            </ul>
+            </div>
+        </div>
+
+        <div id="burnt-out">
+            <div class="card-header">
+                <div class="icon-header">
+                    <h3>Burnt Out Games</h3>
+                </div>
+                <p>Technical Artist</p>
+            </div>
+            <div class="card">
+            <ul>
+                <li>Researched, proposed, and implemented stylized speed-distortion 
+                    post-processing effects for Unreal Engine 5.</li>
+                <li>Assisted in discussion around re-scoping and planned Jira sprints for the remainder 
+                    of expected development.</li>
+                <li>Leveraged Knowledge in Unreal Engine 5, UE5 Blueprints, Unreal Material Graph, Perforce, Jira, Miro.</li>
             </ul>
             </div>
         </div>
