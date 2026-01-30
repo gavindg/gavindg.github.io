@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gavin's Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+<div id="top"></div>
+
+<header class="navbar">
+    <nav class="navbar-links">
+        <a href="./index.html#top">ABOUT</a>
+        <a href="./index.html#games">GAMES</a>
+        <a href="./index.html#work-experience">EXPERIENCE</a>
+    </nav>
+    <div class="underline"></div>
+</header>
+
+<main>
+    <div style="display: flex; justify-content: center;">
+
+    <div class="main-content">
+        <section id="about">
+        <h2 class="section-title">Hey, I'm Gavin!</h2>
+        <p>
+            I'm currently studying Computer Science and developing indie games at UC Irvine.
+            I'm a Program Manager for 
+            <a style="font-size:1em;" href="https://vgdc-uci.framer.website/">UC Irvine's Video Game Development Club,</a>
+            and I work as a Technical Artist at 
+            <a style="font-size:1em;" href="https://burntoutgames.figma.site/">Burnt Out Games</a>!
+        </p>
+        </section>
+
+        <div id="links">
+        <div class="quick-link-container">
+            <a class="quick-link" href="https://24lemon.itch.io">
+                <img class="link-icon" style="width:4em;" src="public/uwt_icon.png" alt="&quot;underwatertale&quot; logo">
+                itch.io
+            </a>
+            <a class="quick-link" href="https://www.linkedin.com/in/gavin-gee-60710626b/">
+                <img class="link-icon" style="width:4em;" src="public/linkedin_icon.png" alt="LinkedIn logo">
+                linkedin
+            </a>
+            <a class="quick-link" href="https://burntoutgames.figma.site/">
+                <img class="link-icon" style="width:4em;" src="public/burntout_icon.png" alt="&quot;Burnt Out Games&quot; logo">
+                burnt out
+            </a>
+        </div>
+        </div>
+
+        <section id="games" class="navbar-pad">
+        <h2 class="section-title">Games</h2>
+
+        <div id="underwatertale">
+            <div class="card-header">
+                <div class="icon-header">
+                    <img src="public/uwt_icon.png" alt="">
+                    <h3>Underwatertale</h3>
+                </div>
+                <p>Tools Programmer / Team Lead</p>
+            </div>
+            <div class="game-info card">
+                <div class="game-description">
+                    <p>
+                        I led this project with a team of ~20 incredibly talented developers!
+                        I mainly worked as a producer, but also developed systems and in-engine tools
+                        for our programmers & designers.
+                    </p>
+                    <p>
+                        You can play the game on itch.io <a style="font-size: 1em;" href="https://24lemon.itch.io/underwatertale">here!</a>
+                    </p>
+                </div>
+                <img
+                    src="public/uwt_screenshot.png" 
+                    class="game-screenshot"
+                    alt="Screenshot of &quot;underwatertale&quot;"
+                >
+            </div>
+        </div>
+
+        <div id="never-sleep">
+            <div class="card-header">
+                <div class="icon-header">
+                    <img class="project-icon" src="public/ns_icon.png" alt="">
+                    <h3>Never Sleep</h3>
+                </div>
+                <p>Network Programmer</p>
+            </div>
+            <div class="game-info card">
+                <div class="game-description">
+                    <p>
+                        Built a sleepy online multiplayer arena shooter in Godot in a 48 hour game jam.
+                        Currently in development! 
+                    </p>
+                    <p>
+                        You can play the jam version on itch.io <a style="font-size: 1em;" href="https://24lemon.itch.io/never-sleep">here!</a>
+                    </p>
+                </div>
+                <img 
+                    src="public/ns_screenshot.png" 
+                    class="game-screenshot" 
+                    alt="Screenshot of &quot;never sleep&quot;"
+                >
+            </div>
+        </div>
+        </section>
+
+        <section id="work-experience" class="navbar-pad" style="margin-bottom: 48px;">
+        <h2 class="section-title">Experience</h2>
+
+        <div id="leucadia">
+            <div class="card-header">
+                <div class="icon-header">
+                    <h3>Leucadia Therapeutics</h3>
+                </div>
+                <p>Software Engineer Intern</p>
+            </div>
+            <div class="card">
+            <ul>
+                <li>Spearheaded development of a full-stack application with Unity Engine and Flask microservices.</li>
+                <li>Migrated legacy PHP code to a Flask RESTful API implementation.</li>
+                <li>Leveraged Knowledge in C#, Unity, Python, Flask, Microsoft SQL Server, 
+                    Linux (Ubuntu, RedHat), Azure (Webapp, Blob Storage, 
+                    Serverless SQL Database), Command Line Git, OpenAI API.</li>
+            </ul>
+            </div>
+        </div>
+
+        <div id="vgdc">
+            <div class="card-header">
+                <div class="icon-header">
+                    <h3>VGDC @ UCI</h3>
+                </div>
+                <p>Program Manager</p>
+            </div>
+            <div class="card">
+            <ul>
+                <li>Manages a system surrounding the pitching and development of 15+
+                video game projects per academic quarter.</li>
+                <li>Holistically sorts ~200 club members into project teams and 
+                interviews prospective team leaders and mentors.</li>
+                <li>Coordinates club-wide events such as project pitch, playtesting,
+                    and showcase nights, as well as quarterly game jams.</li>
+            </ul>
+            </div>
+        </div>
+
+        <!-- <div id="foodie">
+            <div class="card-header">
+                <div class="icon-header">
+                    <h3>QR Foodie</h3>
+                </div>
+                <p>Software Engineer Intern</p>
+            </div>
+            <div class="card">
+            <ul>
+                <li>Led development of features for a full-stack Next.js/Nest.js 
+                    point-of-sale service web application.</li>
+                <li>Built systems for localization and sending asynchronous push 
+                    notification events to connected clients via websockets.</li>
+                <li>Leveraged Knowledge in Javascript, React (Next.js), Nest.js, Prisma/MySQL, Docker.</li>
+            </ul>
+            </div>
+        </div> -->
+
+        <div id="linkedin" style="display:flex; align-items: center; justify-content: flex-start; margin: auto;
+            padding-left: 1rem; padding-right: 1rem;">
+            <a class="quick-link" href="https://www.linkedin.com/in/gavin-gee-60710626b/">
+                <img class="link-icon" style="width:4em;" src="public/linkedin_icon.png" alt="LinkedIn logo">
+            </a>
+            <p style="display: block; padding-left: 2rem;">
+                For a more in-depth look at my work experience, 
+                <a href="https://www.linkedin.com/in/gavin-gee-60710626b/">please check out my LinkedIn!</a>
+            </p>
+        </div>
+
+        </section>
+    </div>
+
+    </div> 
+</main>
+
+<footer>
+    <div class="underline"></div>
+    <p style="text-align: center;">
+        Thanks for visiting my site!
+        <br>
+        <a href="./index.html#top">(back to top)</a>
+    </p>
+</footer>
+
+</body>
+
+</html>

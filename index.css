@@ -1,0 +1,198 @@
+html {
+  font-family: "Lusitana", serif;
+  font-weight: 400;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #343434;
+  margin: 0px;
+}
+
+* {
+  color: #DFDFDF;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #6C9CC1;
+  font-size: 1rem;
+}
+
+h1 {
+  white-space: nowrap;
+  font-size: clamp(0.7em, 2.5em, 2.5em);
+  font-size: 2.5em;
+  margin-top: 00px;
+  margin-bottom: 00px;
+  text-align: center;
+}
+
+h2 {
+  white-space: nowrap;
+  font-size: clamp(1em, 2em, 2em);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: clamp(0.7em, 2.5em, 2.5em);
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.3em;
+  margin: 0px;
+}
+
+p {
+  font-size: 1rem;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #343434;
+  width: 100%;
+}
+
+nav a {
+  display: inline;
+  padding: 10px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  justify-self: center;
+}
+
+.navbar-pad {
+  padding-top: 48px;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 24px;
+}
+
+.push-left {
+  margin-right: auto;
+}
+
+.underline {
+  height: 6px;
+  background-color: azure;
+  min-width: 1vw;
+}
+
+.quick-link-container {
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.quick-link {
+  display:flex;
+  flex-direction: column; 
+  width: 5em; 
+  justify-content: center; 
+  align-items:center; 
+  margin:auto;
+}
+
+.link-icon {
+  aspect-ratio: 1.0;
+  width: 2em;
+}
+
+.main-content {
+  padding-top:0px;
+  width: 66vw;
+  max-width: 100%;
+}
+
+#games {
+  padding-top: 48px;
+}
+
+.icon-header {
+  max-width: 100%; display: flex; align-items: center;
+}
+
+.icon-header img {
+  padding-right: 0.5rem;
+  /* padding-top: 0.5em; */
+  width: 2em;
+  height: 2em;
+}
+
+.card {
+  background-color: #99bfca;
+  outline: thick solid #DFDFDF;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 20px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.card a {
+  color: #726cc1;
+  font-size: 20px;
+}
+
+.card p {
+  color: #343434;
+  font-size: 20px;
+}
+
+.card li {
+  font-size: 20px;
+  color: #343434;
+}
+
+.game-info {
+  display:flex; 
+  align-items: center;
+}
+
+.card-header {
+  display: flex; 
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center; padding:5px;
+}
+
+.card-header p {
+  margin:0px;
+}
+
+.game-screenshot {
+  width: 60%;
+  border-radius: 10px;
+}
+.game-description {
+  width: 40%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .game-info {
+    flex-direction: column-reverse;
+  }
+  .game-screenshot {
+    width: 100%;
+  }
+  .game-description {
+    width: 100%;
+  }
+  .game-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
